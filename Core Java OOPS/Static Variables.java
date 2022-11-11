@@ -14,5 +14,6 @@ public class Main
 		Student s1=new Student("Palak",21);
 		Student s2=new Student("Apoorv",18);
 		System.out.println(s1.strength);
+		System.out.println(Student.strength);
 	}
 }
