@@ -35,4 +35,19 @@ public class Main
 		System.out.println(i.name);
 	}
 }
-
+//How to access functions of inner class
+class outer{
+    class inner{
+    int func(int a,int b){
+        return a+b;
+    }
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+	    outer o=new outer();
+	    outer.inner i=o.new inner();
+		System.out.println(i.func(3,6));
+	}
+}
