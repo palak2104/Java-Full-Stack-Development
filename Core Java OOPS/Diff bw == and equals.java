@@ -10,7 +10,6 @@ class Nums{
 public class Main
 {
 	public static void main(String[] args) {
-		//System.out.println("Hello World");
 		Nums o1=new Nums(12);
 		Nums o2=new Nums(12);
 		Nums o3=o1;
